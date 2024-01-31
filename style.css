@@ -2,6 +2,7 @@ body{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 .site-header{
    
@@ -12,4 +13,83 @@ body{
     color: white;
     margin-left: auto;
     margin-right: auto;
+}
+.cls-navigation{
+    margin: 0px;
+    padding: 0px;
+}
+.cls-navigation>li{
+    list-style: none;     
+    width: 135px;
+    padding: 18px;   
+    background-color: black;    
+    border: 1px solid white;
+}
+.cls-navigation>li>a{
+    text-decoration: none;    
+    color:white;
+  
+}
+/* site description */
+.cls-site-description{
+    text-align: center;
+}
+.cls-site-description>.cls-site-description-heading{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.cls-site-description>.cls-site-description-red-heading{
+    font-size: 15px;
+    color: red;
+    padding-bottom: 13px;
+}
+.cls-site-description>.cls-site-description-social-link{
+    font-size: 18px;
+}
+
+/* site description */
+
+/* marquee */
+.cls-marque{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* marquee */
+
+/* advertisement board ..........................*/
+
+.advertise1{
+    width: auto;
+    height: 250px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+/* <!--sarkariresult tools -->*/
+
+.cls-sarkari-result-tools>a{
+    padding: 2px 61px 13px 61px;
+    font-size: 24px;
+    text-decoration: none;
+    list-style: none;
+    background-color: blue;
+    color: white;
+}
+
+/*<!--sarkariresult tools --> */
+
+/* current jobs */
+.cls-current-jobs-sec1>ul>li{
+    width: 135px;
+    padding: 18px;
+    background-color: #ab183d;
+    border: 1px solid white;
+    list-style: none;
+}
+.cls-current-jobs-sec1>ul>li>a{
+    text-decoration: none;
 }
