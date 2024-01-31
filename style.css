@@ -63,7 +63,7 @@ body{
 
 /* advertisement board ..........................*/
 
-.advertise1{
+.advertise1,.advertise2{
     width: auto;
     height: 250px;
     padding-top: 13px;
@@ -80,16 +80,49 @@ body{
     color: white;
 }
 
-/*<!--sarkariresult tools --> */
+/* current job opening */
 
-/* current jobs */
-.cls-current-jobs-sec1>ul>li{
-    width: 135px;
-    padding: 18px;
-    background-color: #ab183d;
-    border: 1px solid white;
-    list-style: none;
+.cls-current-jobs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
 }
-.cls-current-jobs-sec1>ul>li>a{
+.cls-current-jobs-item{
+    font-weight: 700;
+    width: 246px;
+    height: 60px;
+    padding: 2px;
+    padding: 13px 0;
+    background-color: #868a08;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
+.cls-current-jobs-item>a{
+    color: white;
+}
+/* current job opening */
+
+.style-container>ul>li>a{
+    font-size: 19px;
+    line-height: 1.8px;
+    
+}
+.style-container>ul>li{
+    padding: 5px;
+}
+.cls-view-more{
+    text-align: right;
+    
+}
+.cls-view-more{
+    list-style: none;
+    margin-top: 47px;
+}
+.cls-view-more>a{
+    font-size: large;
+    font-weight: 700;
+    color: #0000a0;
     text-decoration: none;
+   
 }
