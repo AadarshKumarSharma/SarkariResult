@@ -126,3 +126,11 @@ body{
     text-decoration: none;
    
 }
+.site-objective-container{
+    text-align: center;
+    
+}
+.site-objective-container>p{
+    font-size: 16px;
+    padding: 15px;
+}
