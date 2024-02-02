@@ -134,3 +134,11 @@ body{
     font-size: 16px;
     padding: 15px;
 }
+.cls-main-col3>ul>li{
+    
+    padding: 17px;
+
+} 
+.cls-main-col3>ul>li>a{
+    font-size: 22px;
+}
