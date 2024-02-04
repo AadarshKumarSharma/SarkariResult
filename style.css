@@ -142,3 +142,11 @@ body{
 .cls-main-col3-1>ul>li>a{
     font-size: 22px;
 }
+.cls-footer-social-links{
+    margin-top: 38px;
+}
+.cls-footer-social-links>a{
+    text-decoration: none;
+    opacity: 75%;
+    padding-bottom: 10px;
+}
