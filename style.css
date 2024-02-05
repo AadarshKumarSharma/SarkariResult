@@ -142,11 +142,17 @@ body{
 .cls-main-col3-1>ul>li>a{
     font-size: 22px;
 }
-.cls-footer-social-links{
+.cls-footer-social-links,.cls-footer-apps,.cls-footer-more{
     margin-top: 38px;
+    margin-right: 10%;
 }
-.cls-footer-social-links>a{
+.cls-footer-social-links>a,.cls-footer-apps>a,.cls-footer-more1>a,.cls-footer-more2>a,.cls-footer-more3>a{
     text-decoration: none;
+  display: block;
+ 
     opacity: 75%;
-    padding-bottom: 10px;
+   
+}
+.cls-footer-more{
+    margin-left: 10%;
 }
